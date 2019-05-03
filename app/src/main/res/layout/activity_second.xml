@@ -6,51 +6,71 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".SecondActivity">
+
     <TextView
         android:id="@+id/response1"
-        android:textColor="@android:color/holo_blue_light"
-        android:textSize="25sp"
-        android:hint="显示用户名"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:hint="显示用户名"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="25sp" />
+
     <TextView
         android:id="@+id/response2"
-        android:textColor="@android:color/holo_red_light"
-        android:hint="请查询余额"
-        android:textSize="25sp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:hint="请查询余额"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btnONOFF"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="开启/关闭蓝牙"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/lianjielanya"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="连接蓝牙"
+        android:textSize="25sp"/>
+
     <Button
         android:id="@+id/chongdian"
-        android:textSize="25sp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:text="充电"
-        />
+        android:textSize="25sp" />
+
     <Button
         android:id="@+id/duandian"
-        android:textSize="25sp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
+
         android:text="断电"
-        />
+        android:textSize="25sp" />
+
     <Button
         android:id="@+id/chaxun"
-        android:textSize="25sp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="查询"/>
+        android:layout_height="60dp"
+        android:text="查询"
+        android:textSize="25sp" />
+
     <Button
         android:id="@+id/chonzhi"
-        android:textSize="25sp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="充值"/>
+        android:layout_height="60dp"
+        android:text="充值"
+        android:textSize="25sp" />
+
     <Button
         android:id="@+id/tuichu"
-        android:textSize="25sp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="退出"/>
+        android:layout_height="60dp"
+        android:text="退出"
+        android:textSize="25sp" />
 
 </LinearLayout>
